@@ -1,12 +1,12 @@
 import '../styles/globals.css';
 import '@rainbow-me/rainbowkit/styles.css';
-import { Providers } from './provider';
+import { Provider } from './provider';
 
 function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <body>
-        <Providers>{children}</Providers>
+        <Provider>{children}</Provider>
       </body>
     </html>
   );

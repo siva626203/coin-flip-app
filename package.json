@@ -11,7 +11,9 @@
   "dependencies": {
     "@rainbow-me/rainbowkit": "^2.1.5",
     "@tanstack/react-query": "^5.52.1",
+    "encoding": "^0.1.13",
     "ethers": "^6.13.2",
+    "lokijs": "^1.5.12",
     "next": "14.2.6",
     "pino-pretty": "^11.2.2",
     "react": "^18",
@@ -28,6 +30,7 @@
     "eslint-config-next": "14.2.6",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "typescript": "^5"
+    "typescript": "^5",
+    "webpack-bundle-analyzer": "^4.10.2"
   }
 }
