@@ -17,6 +17,7 @@ export default function Flip() {
   const [choice, setChoice] = useState(true); // default choice (true for heads)
   const [amount, setAmount] = useState<number>(0.000001);
   const flipCoin = async () => {
+    setResult('')
   if (!address) {
     toast.warn("Please connect the wallet!"); // Ensure there is an address
     return;
