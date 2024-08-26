@@ -148,7 +148,7 @@ useEffect(() => {
        <button
   onClick={() => setChoice(true)}
   disabled={isFlipping}
-  className="text-white font-bold py-2 px-4 rounded bg-gradient-to-r from-green-400 via-yellow-500 to-blue-500 bg-rotate bg-rotate-hover transition-all duration-500"
+  className="text-white font-bold md:py-2 md:px-4 rounded bg-gradient-to-r from-green-400 via-yellow-500 to-blue-500 bg-rotate bg-rotate-hover transition-all duration-500"
 >
   Heads
 </button>
@@ -158,12 +158,12 @@ useEffect(() => {
       value={amount}
       onChange={handleChange}
       min={0.000001}
-      className= "placeholder:text-yellow-500 text-yellow-500 md:text-4xl  peer ring md:px-4 md:py-1 h-12 border-0 rounded-lg ring-gray-200 duration-500 focus:ring-2 focus:border-gray-100 relative placeholder:duration-500 placeholder:absolute focus:placeholder:pt-10 shadow-xl shadow-gray-400/10 focus:shadow-none focus:rounded-md focus:ring-blue-600"
+      className= "placeholder:text-yellow-500 text-yellow-500 md:text-4xl  peer ring md:px-4 md:py-1 md:h-12 border-0 rounded-lg ring-gray-200 duration-500 focus:ring-2 focus:border-gray-100 relative  shadow-xl shadow-gray-400/10 focus:shadow-none focus:rounded-md focus:ring-blue-600"
     />
 <button
   onClick={() => setChoice(false)}
   disabled={isFlipping}
-  className="text-white font-bold py-2 px-4 rounded bg-gradient-to-r from-pink-400 via-red-500 to-yellow-500 bg-rotate bg-rotate-hover transition-all duration-500"
+  className="text-white font-bold md:py-2 md:px-4 rounded bg-gradient-to-r from-pink-400 via-red-500 to-yellow-500 bg-rotate bg-rotate-hover transition-all duration-500"
 >
   Tails
 </button>
