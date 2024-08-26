@@ -1,10 +1,20 @@
 import '../styles/globals.css';
 import '@rainbow-me/rainbowkit/styles.css';
 import { Provider } from './provider';
+import 'react-toastify/dist/ReactToastify.css';
+import Head from "next/head"
 
 function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
+       <Head>
+       <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap"
+          rel="stylesheet"
+        />
+      </Head>
       <body>
         <Provider>{children}</Provider>
       </body>
