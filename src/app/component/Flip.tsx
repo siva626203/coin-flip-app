@@ -45,9 +45,7 @@ export default function Flip() {
 
     const tx = await contract.methods.flipCoin(choice).send({
       from: address,
-      value: amountInWei,
-      gas: estimatedGasString, // Set the estimated gas limit as a string
-      gasPrice: gasPriceInWei // Set the gas price
+      value: amountInWei,// Set the gas price
     });
 
     // Access event data safely
