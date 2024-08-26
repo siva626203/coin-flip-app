@@ -113,8 +113,8 @@ useEffect(() => {
     <div>
       
       <motion.div 
-      className="bg-rotating-gradient bg-[length:200%_200%] bg-contain bg-no-repeat flex flex-col justify-center gap-2 items-center rounded-xl md:mx-24 md:py-10 mx-10 py-10 animate-bg-rotate"
-       >
+  className="bg-rotating-gradient bg-[length:200%_200%] flex flex-col justify-center gap-2 items-center rounded-xl md:mx-24 md:py-10 mx-10 py-10 animate-bg-rotate"
+>
         {result && (
           <div>
             {
